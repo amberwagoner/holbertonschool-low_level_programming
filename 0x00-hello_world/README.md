@@ -14,7 +14,7 @@ By the end of this project, I will be able to explain the following to anyone:
 - *This work took place at AT&T Bell Laboratory.*
 
 **Who are Dennis Ritchie, Brian Kernighan, and Linus Torvalds?**
-- *Dennis Ritchie is the inventor of the C language.
+- *Dennis Ritchie is the inventor of the C language.*
 - *Brian Kernighan was also at Bell Labs and cowrote (along with Ritchie)* The C Programming Language.
 - *Linus Torvalds created the Linux kernel. He also created Git!*
 
