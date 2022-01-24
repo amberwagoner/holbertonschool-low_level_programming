@@ -29,6 +29,13 @@ By the end of this project, I will be able to explain the following to anyone:
 - *This is the entry point in C.*
 
 **How to print text using `printf`, `puts`, and `putchar`**
+**`printf`**
+- `int printf(constant char*c-string);`
+- `c-string` format = `%[flags][width][.precision][length]specifier`
+- `printf` is one of the most commonly used commands in C
+
+**`puts`**
+-
 
 **How to get the side of a specific type using the unary operator `sizeof`**
 
@@ -37,10 +44,12 @@ By the end of this project, I will be able to explain the following to anyone:
 **What is the default program name when compiling with `gcc`**
 
 **What is the official C coding style and how to check your chode with `betty-style`**
+- *[Official C Coding Style](https://www.gnu.org/prep/standards/html_node/Writing-C.html)*
+- *[Betty Style](https://github.com/holbertonschool/Betty/wiki)*
 
 **How to find the right header to include in your source code when using a standard library function**
 
-**How does the `main` function influence the return value of the variable**
+**How does the `main` function influence the return value of the variable?**
 
 
 ## Tasks
