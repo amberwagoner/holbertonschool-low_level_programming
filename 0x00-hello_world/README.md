@@ -8,27 +8,40 @@ By the end of this project, I will be able to explain the following to anyone:
 - *It's the preferred language for kernel development!*
 - *Almost all other languages are built off C!*
 - *C is portable and efficient!*
+
 **Who invented C?**
 - *Dennis Ritchie and Ken Thompson invented C in order to make Unix portable.*
 - *This work took place at AT&T Bell Laboratory.*
+
 **Who are Dennis Ritchie, Brian Kernighan, and Linus Torvalds?**
 - *Dennis Ritchie is the inventor of the C language.
 - *Brian Kernighan was also at Bell Labs and cowrote (along with Ritchie)* The C Programming Language.
 - *Linus Torvalds created the Linux kernel. He also created Git!*
+
 **What happens when you type `gcc main.c`?**
 - *The compiler creates an executable file called a.out by default.*
+
 **What is an entry point?**
 - *This is the point in a program where the execution of a program begins.*
 - *It's where the program has access to command line arguments.*
+
 **What is `main`?**
 - *This is the entry point in C.*
+
 **How to print text using `printf`, `puts`, and `putchar`**
+
 **How to get the side of a specific type using the unary operator `sizeof`**
+
 **How to compile using `gcc`**
+
 **What is the default program name when compiling with `gcc`**
+
 **What is the official C coding style and how to check your chode with `betty-style`**
+
 **How to find the right header to include in your source code when using a standard library function**
+
 **How does the `main` function influence the return value of the variable**
+
 
 ## Tasks
 
