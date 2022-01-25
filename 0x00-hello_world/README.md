@@ -29,19 +29,52 @@ By the end of this project, I will be able to explain the following to anyone:
 - *This is the entry point in C.*
 
 **How to print text using `printf`, `puts`, and `putchar`**
-**`printf`**
-- `int printf(constant char*c-string);`
-- `c-string` format = `%[flags][width][.precision][length]specifier`
-- `printf` is one of the most commonly used commands in C
 
-**`puts`**
--
+**`printf()`**
+- `int printf(constant char*c-string);`
+- `c-string` = `%[flags][width][.precision][length]specifier`
+- `printf` *is one of the most commonly used commands in C*
+
+**`puts()`**
+- `int puts(constant char *s);`
+-  `puts` *moves cursor to next line.*
+-  *Can be a simpler and easier command to use for printing strings vs* `printf`.
+
+**`putchar()`**
+- `int putchar(int c);
+- `int putc (int c, FILE *stream);` 
+- *Bother versions return the character written.*
+- `putc()` *can be defined as marco, letting the argument be evaluate multiple times.
 
 **How to get the side of a specific type using the unary operator `sizeof`**
+- *When the operand is a data type, it returns the amount of memory allocated for specified type.*
 
 **How to compile using `gcc`**
 
+1. Preprocessing `gcc -E main.c`
+- *gets rid of the comments in source file(s)*
+- *includes code in the header file(s)*
+- *replaces all the macros with their values*
+- *output of this step will have "i." extension*
+
+2. Compiling `gcc -S main.c`
+- *takes the preprocessed file and generates IR code*
+- *IR = Intermediate Representation*
+- *produces a file with ".s" extension
+
+3. Assembling `gcc -c main.c`
+- *takes IR code and turns it into machine language (ie binary)*
+- *produces a file with ".o" extension
+
+4. Linking `gcc main.c`
+- *can link all sources files together*
+- *can link function calls with their definitions*
+- *default output is* `a.out`
+- `gcc main.c -o my_program` *creates an executable program with the name we want.*
+
 **What is the default program name when compiling with `gcc`**
+
+
 
 **What is the official C coding style and how to check your chode with `betty-style`**
 - *[Official C Coding Style](https://www.gnu.org/prep/standards/html_node/Writing-C.html)*
