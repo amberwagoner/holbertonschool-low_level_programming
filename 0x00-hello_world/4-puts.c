@@ -1,19 +1,24 @@
-#include <std.io>
+#include <stdio.h>
+#include <string.h>
 
-/*
- * main is the entry point and beginning of our code
+/**
+ * main - the entry point and beginning of our code
+ *
+ * Return: the string
  */
 int main(void)
 {
-	/*
-	 * Identify string using char
+	/**
+	 * char - identify string
 	 */
-	char str1[] = "\"Programming is like building a multilingual puzzle";
-
-	/*
-	 * puts will print the previously identified string
+	char str[];
+	/**
+	 * strcpy - copy string
+	 */
+	strcpy(str, "\"Programming is like building a multilingual puzzle");
+	/**
+	 * puts - print the string
 	*/
-	puts(str1);
-
+	puts(str);
 	return (0);
 }
