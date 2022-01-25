@@ -48,7 +48,7 @@
 **How to get the side of a specific type using the unary operator `sizeof`**
 - *When the operand is a data type, it returns the amount of memory allocated for specified type.*
 
-**How to compile using `gcc`**
+**1-4: How to compile using `gcc`**
 
 **1. Preprocessing `gcc -E main.c`**
 - *gets rid of the comments in source file(s)*
@@ -72,17 +72,19 @@
 - `gcc main.c -o my_program` *creates an executable program with the name we want.*
 
 **What is the default program name when compiling with `gcc`**
-
-
+- `a.out``a.exe`
 
 **What is the official C coding style and how to check your chode with `betty-style`**
 - *[Official C Coding Style](https://www.gnu.org/prep/standards/html_node/Writing-C.html)*
 - *[Betty Style](https://github.com/holbertonschool/Betty/wiki)*
 
 **How to find the right header to include in your source code when using a standard library function**
+- *So much can be found by using man...*
 
 **How does the `main` function influence the return value of the variable?**
-
+- *The return value of the* `main` *function shows how the program exited.*
+- *Normal exit of a program (no bugs/errors) returns a value of 0.*
+- *If the code has errors it will be return with a non-zero value.*
 
 ## Tasks
 
