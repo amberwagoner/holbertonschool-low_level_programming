@@ -53,22 +53,22 @@
 
 **1-4: How to compile using `gcc`**
 
-**1. Preprocessing `gcc -E main.c`**
+1. Preprocessing `gcc -E main.c`
 - *gets rid of the comments in source file(s)*
 - *includes code in the header file(s)*
 - *replaces all the macros with their values*
 - *output of this step will have "i." extension*
 
-**2. Compiling `gcc -S main.c`**
+2. Compiling `gcc -S main.c`
 - *takes the preprocessed file and generates IR code*
 - *IR = Intermediate Representation*
 - *produces a file with ".s" extension*
 
-**3. Assembling `gcc -c main.c`**
+3. Assembling `gcc -c main.c`
 - *takes IR code and turns it into machine language (ie binary)*
 - *produces a file with ".o" extension*
 
-**4. Linking `gcc main.c`**
+4. Linking `gcc main.c`
 - *can link all sources files together*
 - *can link function calls with their definitions*
 - *default output is* `a.out`
