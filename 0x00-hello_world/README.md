@@ -2,11 +2,14 @@
 
 ## Learning Objectives
 
-
-**Why the C programming language is so awesome**
-- *It's the preferred language for kernel development!*
+**Why is the C programming language so awesome?!**
+- *It's the preferred coding language for kernel development!*
 - *Almost all other languages are built off C!*
-- *C is portable and efficient!*
+- *C is portable and efficient, making it ideal for programs that require high performance and low memory overhead!*
+- *C has been around for over 30 years and is deeply embedded in countless systems!*
+- *Writing code in C will help you understand how a computer really works!*
+- *There will always be a job demand for expert C knowledge!*
+- *The Mars Curiosity Rover is powered by 500,000 lines of C code!*
 
 **Who invented C?**
 - *Dennis Ritchie and Ken Thompson invented C in order to make Unix portable.*
