@@ -1,15 +1,12 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
-/**
- *Assigns a random number to n,
- *then prints whether n is pos, neg, or zero.
-*/
+#include <time.h>
+#include <stdio.h>
 
 /**
- *main - entry point
+ * main - returns a random number and prints if
+ * it is positive, negative, or zero.
  *
- *Return: 0 (success)
+ * Return: 0
  */
 int main(void)
 {
