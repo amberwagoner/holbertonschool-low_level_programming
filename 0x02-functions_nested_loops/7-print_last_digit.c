@@ -9,14 +9,19 @@
 
 int print_last_digit(int n)
 {
-	/* Define last digit */
-	int lastDigit = ((n % 10) + '0');
-
-	/* Print the last digit */
-	while ((n >= 0) || (n <= 0))
+	n = (n % 10);
+	
+	if (n >= 0)
 	{
-		putchar(lastDigit);
+		_putchar('0' + n);
+		return(n);
 	}
 
+	else if (n < 0)
+	{
+		n = (n * -1);
+		_putchar('0' + n);
+		return (n);
+	}
 	return (0);
 }
