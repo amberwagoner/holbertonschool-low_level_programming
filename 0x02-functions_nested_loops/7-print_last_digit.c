@@ -10,7 +10,7 @@
 int print_last_digit(int n)
 {
 	/* Define last digit */
-	int lastDigit = (n % 10);
+	int lastDigit = ((n % 10) + '0');
 
 	/* Print the last digit */
 	while ((n >= 0) || (n <= 0))
