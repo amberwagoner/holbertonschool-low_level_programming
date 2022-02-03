@@ -2,18 +2,18 @@
 
 /**
  * _strlen - returns the length of a string
- * @str: string
+ * @s: string
  * Return: 0
  */
 
-int _strlen(char *str)
+int _strlen(char *s)
 {
-	static int count = 0;
+	int count = 0;
 
-	while (*str != '\0')
+	while (*s != '\0')
 	{
+		s++;
 		count++;
-		_strlen(str + 1);
 	}
-	return count;
+	return (count);
 }
