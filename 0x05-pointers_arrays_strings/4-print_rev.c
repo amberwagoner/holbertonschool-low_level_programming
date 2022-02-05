@@ -8,7 +8,7 @@
 
 void print_rev(char *s)
 {
-	int x; /* original string */ 
+	int x; /* original string */
 	int y; /* reverse string */
 
 	/* declare the original string and continue */
