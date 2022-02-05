@@ -25,7 +25,6 @@ void print_square(int size)
 			/* move to next row */
 			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 	/* when size is less than zero */
 	else
