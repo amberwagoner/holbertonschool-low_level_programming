@@ -9,18 +9,12 @@
 
 void reverse_array(int *a, int n)
 {
-	/* declare int i and a reverse array with n elements */
-	int i;
-	int r[n];
-	/* for loop putting a backwards into rev */
-	for (i = 0; i < n; i++)
-	{
-		r[n - 1 - i] = a[i];
+	int start, end, temp;
 
-	}
-	/* for loop assigning value of rev to a */
-	for (i = 0; i < n; i++)
+	for (start = 0, end = n - 1; start < end; start++, end--)
 	{
-		a[i] = r[i];
+		temp = a[start];
+		a[start] = a[end];
+		a[end] = temp;
 	}
 }
