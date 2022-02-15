@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	a = atoi(argv[1]);
 	b = atoi(argv[2]);
 	sum = a * b;
-	
+
 	/* conditions if there are two numbers */
 	printf("%d\n", sum);
 	return (0);
