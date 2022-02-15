@@ -2,6 +2,7 @@
 
 /**
  * main - print the name of the program, followed by new line
+ * @argc: number of command line arguments
  * @argv: array of pointers to arrays of character objects
  * Return: 0
  */
