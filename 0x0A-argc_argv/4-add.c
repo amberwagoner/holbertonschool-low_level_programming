@@ -11,14 +11,13 @@ int main(int argc, char *argv[])
 {
 	int i, sum = 0;
 
-	/* conditions if there are numbers */
+	/* condition if there are numbers */
 	if (argc > 1)
 	{
 		for (i = 1; argv[i]; i++)
 		{
 			char *endptr;
 
-			/* strol - atoi but stops at symbols */
 			sum += strtol(argv[i], &endptr, 10);
 			/*condition if there is a symbol */
 			if (*endptr != '\0')
