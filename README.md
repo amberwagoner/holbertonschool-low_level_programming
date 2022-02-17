@@ -4,17 +4,18 @@ These projects are part of the first semester curriculum at Holberton School Tul
 
 ## Projects from PP1000 Beginning Procedural Programming
 
-### 0x00.C - Hello World
+0x00.C - Hello World
 
-### 0x01.C - Variables, if, else, while
+0x01.C - Variables, if, else, while
 
-### 0x02.C - Functions, nested loops
+0x02.C - Functions, nested loops
 
-### 0x04.C - More functions, more nested loops
+0x04.C - More functions, more nested loops
 
-### 0x03.C - Debugging
+0x03.C - Debugging
 
-### 0x05.C - Pointers, arrays, strings
+0x05.C - Pointers, arrays, strings
+
 
 
 ## Projects from PP1100 Basic Procedural Programming
