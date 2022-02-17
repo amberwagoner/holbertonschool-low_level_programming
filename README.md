@@ -20,26 +20,26 @@ These projects are part of the first semester curriculum at Holberton School Tul
 
 ## Projects from PP1100 Basic Procedural Programming
 
-### 0x06.C - More pointers, arrays, strings
+0x06.C - More pointers, arrays, strings
 
-### 0x07.C - Even more pointers, arrays, strings
+0x07.C - Even more pointers, arrays, strings
 
-### 0x08.C - Recursion
+0x08.C - Recursion
 
-### 0x09.C - Static libraries
+0x09.C - Static libraries
 
-### 0x0A.C - Dynamic libraries
+0x0A.C - Dynamic libraries
 
-### 0x0B.C - argc, argv
+0x0B.C - argc, argv
 
-### 0x0C.C - malloc, free
+0x0C.C - malloc, free
 
-### 0x0D.C - Preprocessor
+0x0D.C - Preprocessor
 
-### 0x0E.C - More malloc, free
+0x0E.C - More malloc, free
 
-### 0x0F.C - Structures, typedef
+0x0F.C - Structures, typedef
 
-### 0x10.C - Function pointers
+0x10.C - Function pointers
 
 
