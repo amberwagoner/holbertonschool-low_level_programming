@@ -3,7 +3,7 @@
 /**
  * create_array - creates an array of characters
  * @size: length of the array
- * @c: character(s)
+ * @c: character
  * Return: pointer to array, NULL if fails
  */
 
