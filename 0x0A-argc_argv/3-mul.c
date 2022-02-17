@@ -9,7 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-	int a, b, sum;
+	int sum;
 
 	/* conditions if there aren't two numbers - 3 includes argv[0] */
 	if (argc != 3)
@@ -17,11 +17,8 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
-	/* get values for a, b, and sum */
-	a = atoi(argv[1]);
-	b = atoi(argv[2]);
-	sum = a * b;
+	
+	sum = atoi(argv[1] * argv[2]);
 
 	/* conditions if there are two numbers */
 	printf("%d\n", sum);
