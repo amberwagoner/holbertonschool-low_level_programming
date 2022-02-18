@@ -15,11 +15,15 @@ char *_strdup(char *str)
 {
 	char *dup; /* duplicate string */
 
-	/* define dup with malloc */
-	dup = malloc(_strlen(str) + 1);
+	/* condition if str is NULL */
+	if (str == NULL)
+		return (NULL);
 
-	/* condition if string is NULL */
-	if (str == NULL || dup == NULL)
+	/* define dup with malloc */
+	dup = malloc(_strlen(str + 1));
+
+	/* condition if dup is NULL */
+	if (dup == NULL)
 		return (NULL);
 
 	/* copy string */
