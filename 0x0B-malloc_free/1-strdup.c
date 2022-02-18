@@ -14,13 +14,15 @@ char *_strcpy(char *dest, char *src);
 char *_strdup(char *str)
 {
 	char *dup; /* duplicate string */
+	unsigned int size; /* length of string */
 
 	/* condition if str is NULL */
 	if (str == NULL)
 		return (NULL);
 
 	/* define dup with malloc */
-	dup = malloc(_strlen(str + 1));
+	size = _strlen(str);
+	dup = malloc(size * sizeof(char) + 1);
 
 	/* condition if dup is NULL */
 	if (dup == NULL)
