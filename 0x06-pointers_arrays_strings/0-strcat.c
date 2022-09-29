@@ -40,9 +40,8 @@ int len1, len2, i;
 	return (dest);
 }
 
-/** 
-* char *_strcat(char *dest, char *src)
-* {
+/*
+* old code
 *
 *	int i = 0, j;
 *
@@ -58,5 +57,4 @@ int len1, len2, i;
 *	}
 *	dest[i] = '\0';
 *	return (dest);
-* } 
 */
