@@ -1,1 +1,1 @@
-This is the README file for 0x09: Static Libraries.
+Read [my blog post](https://medium.com/@4282/dynamic-and-static-libraries-in-c-981b3c4142b0) for more information on static libraries.
