@@ -72,4 +72,21 @@ Write a function that adds a new node at the end of a `list_t` list.
 Write a function that frees a `list_t` list.
 - Prototype: `void free_list(list_t *head);`
 
-
+## More info
+Please use this data structure for this project:
+```
+/**
+* strcut list_s - singly linked list
+* @str: string - (malloc'ed string)
+* @len: length of the string
+* @next: points to the next node
+*
+* Description: singly linked list node structure
+*/
+typedef struct list_s
+{
+	char *str;
+	unsigned int len;
+	struct list_s *next;
+} list_t;
+```
