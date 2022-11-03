@@ -17,7 +17,6 @@ These projects are part of the first semester curriculum at Holberton School Tul
 0x05.C - Pointers, arrays, strings
 
 
-
 ## Projects from PP1100 Basic Procedural Programming
 
 0x06.C - More pointers, arrays, strings
@@ -42,4 +41,19 @@ These projects are part of the first semester curriculum at Holberton School Tul
 
 0x10.C - Function pointers
 
+0x11.C - Variadic functions
 
+
+## Projects from PP1200 Intermediate Procedural Programming
+
+0x12.C - printf
+
+0x13.C - Singly linked lists
+
+0x14.C - More singly linked lists
+
+0x15.C - Bit manipulation
+
+0x16.C - File I/O
+
+0x17.C - Simple Shell
