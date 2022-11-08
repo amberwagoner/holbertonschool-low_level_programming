@@ -1,3 +1,5 @@
+#include "lists.h"
+
 /**
  * add_node_end - Adds a new node at the end
  *                of a list_t list.
@@ -11,7 +13,7 @@
 list_t *add_node_end(list_t **head, const char *str)
 {
 	char *dup;
-	int len = 0;
+	int len;
 	list_t *new, *last;
 
 	new = malloc(sizeof(list_t));
@@ -25,7 +27,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	while (str[len])
+	for (len = 0; str[len];)
 		len++;
 
 	new->str = dup;
