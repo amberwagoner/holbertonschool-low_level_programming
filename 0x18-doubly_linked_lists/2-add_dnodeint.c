@@ -16,7 +16,7 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 
 	/* if statement to take care of failure */
 	if (newNode == NULL)
-		return NULL;
+		return (NULL);
 
 	/* assign n to newNode */
 	newNode->n = n;
