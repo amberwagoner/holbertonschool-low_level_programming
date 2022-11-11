@@ -9,7 +9,7 @@
 size_t print_dlistint_backward(const dlistint_t *h)
 {
 	const dlistint_t *temp = h;
-	unsigned int counter;
+	unsigned int counter = 0;
 
 	/* if statement for empty temp */
 	if (temp == NULL)
